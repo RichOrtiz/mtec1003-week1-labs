@@ -16,7 +16,10 @@ $ ls<ENTER>
 Copy and paste the output of ls below.
 ----------
 
-
+Adlm		Downloads	My Games	config.log	get-pip.py
+Applications	Library		Pictures	drills.py	mm.cfg
+Desktop		Movies		Public		gcc-4.2		projectFiles
+Documents	Music		Wine Files	get-pip.p	setuProject
 
 
 
@@ -28,9 +31,9 @@ $ ls -l Documents<ENTER>
 
 Copy and paste the first *two lines* of output below.
 ----------
-
-
-
+total 936
+-rw-r--r--@ 1 Festigeo1  staff  266461 Oct  5  2018 Anthropology Assignment 1.pages
+-rw-r--r--@ 1 Festigeo1  staff  159346 Aug 29  2017 resume.pages
 
 
 
@@ -41,7 +44,9 @@ $ ls -a Documents
 
 Copy and paste the first *two lines* of output below.
 ----------
-
+.				.localized
+..				Anthropology Assignment 1.pages
+.DS_Store			resume.pages
 
 
 
@@ -54,7 +59,7 @@ $ ls doesnotexist
 
 Copy and paste the output below.
 ----------
-
+ls: doesnotexist: No such file or directory
 
 
 
@@ -63,7 +68,7 @@ Copy and paste the output below.
 ==========
 5.  What key do I press to go to the previous command?
 ----------
-
+<UP>
 
 
 
@@ -72,7 +77,8 @@ Copy and paste the output below.
 ==========
 6.  Name two flags that we used in this exercise.
 ----------
-
+-a (display all files)
+-l (show detailed list)
 
 
 
@@ -81,7 +87,7 @@ Copy and paste the output below.
 ==========
 7.  What was the main command that we used throughout this exercise?
 ----------
-
+ls (list files and directories)
 
 
 
@@ -90,7 +96,7 @@ Copy and paste the output below.
 ==========
 8.  What's one an argument that we've so far passed to a command?
 ----------
-
+Documents
 
 
 
@@ -103,7 +109,7 @@ $ foo<ENTER>
 
 Copy and paste the output below.
 ----------
-
+-bash: foo: command not found
 
 
 
@@ -117,6 +123,7 @@ Copy and paste the output below.
 Copy and paste the output below.
 ----------
 
+-bash: foo: command not found
 
 
 
@@ -129,7 +136,10 @@ $ ls -a Desktop
 
 Identify the command, flag, argument, and prompt:
 ----------
-
+ls is the command
+-a is the flag
+Desktop is the argument
+$ is the prompt
 
 
 
@@ -146,7 +156,7 @@ Follow the instructions line-by-line.
 ==========
 12. Open a new terminal window. Create a directory called mtec1002. What command did you use?
 ----------
-
+$ mkdir mtec1002
 
 
 
@@ -155,7 +165,7 @@ Follow the instructions line-by-line.
 ==========
 13. Change your directory so that you're in mtec1002. What command did you use?
 ----------
-
+$ cd mtec1002
 
 
 
@@ -173,7 +183,7 @@ If it doesn't ask for help before moving on!
 Copy and paste the output of pwd below.
 ----------
 
-
+/Users/Festigeo1/mtec1002
 
 
 
@@ -187,6 +197,7 @@ $ ls
 Copy and paste the output below.
 ----------
 
+animals
 
 
 
@@ -201,7 +212,7 @@ $ ls
 Copy and paste the output below.
 ----------
 
-
+animals	food
 
 
 
@@ -214,7 +225,7 @@ $ ls
 
 Copy and paste the output below.
 ----------
-
+animals	foo	food
 
 
 
@@ -229,7 +240,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
+/Users/Festigeo1/mtec1002/foo/bar/baz/qux
 
 
 
@@ -243,7 +254,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
+/Users/Festigeo1/mtec1002/foo/bar
 
 
 
@@ -257,7 +268,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
+/Users/Festigeo1/mtec1002/foo/bar/baz/qux
 
 
 
@@ -271,7 +282,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
+/Users/Festigeo1/mtec1002
 
 
 
@@ -287,7 +298,8 @@ Copy and paste the first 3 lines from the output into the space below.
 ----------
 
 
-
+drwxr-xr-x  3 Festigeo1  staff  96 Feb  2 01:04 foo
+drwxr-xr-x  2 Festigeo1  staff  64 Feb  2 01:03 food
 
 
 
@@ -299,7 +311,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+/Users/Festigeo1
 
 
 
@@ -314,6 +326,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
+/Volumes
 
 
 
@@ -329,7 +342,7 @@ Copy and paste the output into the space below.
 ----------
 
 
-
+/Volumes
 
 
 
@@ -342,7 +355,7 @@ $ pwd
 Copy and paste the output into the space below.
 ----------
 
-
+/Users/Festigeo1/mtec1002
 
 
 
@@ -355,6 +368,7 @@ $ hostname
 Copy and paste the output into the space below.
 ----------
 
+Richards-MBP-2.lan1
 
 
 
@@ -364,7 +378,7 @@ Copy and paste the output into the space below.
 28. Make sure you're back in your mtec1002, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
 ----------
 
-
+$ pwd
 
 
 
@@ -396,7 +410,7 @@ Write the one command you used below:
 ----------
 
 
-
+$ mkdir -p lemon/strawberry/orange/pineapple
 
 
 
@@ -406,7 +420,7 @@ Write the one command you used below:
 Write the command you used to create the directory below:
 ----------
 
-
+$ mkdir aardvark
 
 
 
@@ -416,7 +430,7 @@ Write the command you used to create the directory below:
 
 What is the modified date of the aardvark directory?
 ----------
-
+Feb  2 01:15 aardvark
 
 
 
@@ -434,7 +448,7 @@ What command did you use?
 
 
 
-
+$mkdir -p foo/bar/baz
 
 
 ==========
@@ -444,7 +458,7 @@ What command did you use?
 ----------
 
 
-
+cd foo/bar/baz
 
 
 
@@ -455,7 +469,7 @@ What command did you use?
 ----------
 
 
-
+$ cd ../..
 
 
 
@@ -463,7 +477,7 @@ What command did you use?
 36. What command is used to delete empty directories?
 ----------
 
-
+$ rmdir
 
 
 
@@ -473,7 +487,7 @@ What command did you use?
 ----------
 
 
-
+$ pwd
 
 
 
@@ -482,7 +496,7 @@ What command did you use?
 ----------
 
 
-
+$ ls -a
 
 
 
@@ -490,7 +504,7 @@ What command did you use?
 39. What's the shortcut for home directory?
 ----------
 
-
+~ 
 
 
 
@@ -500,7 +514,7 @@ What command did you use?
 ----------
 
 
-
+The general form of the name of a path or directory. It specifies a unique location in a file system.
 
 
 
@@ -508,7 +522,7 @@ What command did you use?
 41. What is a directory?
 ----------
 
-
+It is a catalogue structure that references other files and directories. 
 
 
 
@@ -516,3 +530,4 @@ What command did you use?
 ==========
 42. What's the *absolute* path (full path, starting at root) to your user's Downloads directory?
 ----------
+Absolute paths are paths expressed as starting from the root
