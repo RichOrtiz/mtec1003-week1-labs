@@ -53,7 +53,7 @@ $ cd -
 7. How would you show all of the files (including hidden ones) with detailed (long) information
 for all files on your Desktop — if you're currently in your home directory?  Write your command below.
 ----------
-
+$ ls -al Desktop
 
 
 ==========
@@ -75,7 +75,7 @@ $ echo hello there
 Copy and paste the output below.
 ----------
 
-
+hello there
 
 
 ==========
@@ -86,7 +86,7 @@ $ echo whoa
 Copy and paste the output below.
 ----------
 
-
+whoa
 
 ==========
 3. Type:
@@ -96,7 +96,7 @@ $ echo good mornin'
 Copy and paste the output below.
 ----------
 
-
+>
 
 ==========
 4. Uh-oh... we're stuck!
@@ -114,7 +114,7 @@ $ echo "good mornin'"
 Copy and paste the output below.
 ----------
 
-
+good mornin'
 
 ==========
 6. There are some other symbols that have special meanings if you don't quote them.
@@ -124,7 +124,7 @@ $ echo *
 
 What happens?
 ----------
-
+It lists all of the files in the current directory
 
 
 
@@ -133,7 +133,7 @@ What happens?
 
 Write the command that you used below:
 ----------
-
+$ clear
 
 
 ==========
@@ -149,7 +149,9 @@ $ curl -o mygoogle.html www.google.com
 Now copy and paste the output below.
 ----------
 
-
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 12894    0 12894    0     0   120k      0 --:--:-- --:--:-- --:--:--  121k
 
 
 
@@ -160,9 +162,12 @@ Now copy and paste the output below.
 
 Write the command you used to determine your directory. Also, copy and paste the output below.
 ----------
+$ pwd 
 
-
-
+Adlm		Downloads	My Games	config.log	get-pip.py	projectFiles
+Applications	Library		Pictures	drills.py	mm.cfg		setuProject
+Desktop		Movies		Public		gcc-4.2		mtec1002
+Documents	Music		Wine Files	get-pip.p	mygoogle.html
 
 
 ==========
@@ -171,7 +176,7 @@ Write the command you used to determine your directory. Also, copy and paste the
 Write the command that you used to change to your home directory.
 If you were already in your home directory, write the command that you *would* have used to change to it!
 ----------
-
+$ cd ~
 
 
 ==========
@@ -188,11 +193,11 @@ Then, use ls to verify that it downloaded.
 Write down the command(s) that you used to download the file below.
 Finally, write the output of the command below.
 ----------
+curl -o MTEC1003-my-flashcards.zip http://einbahnstrasse.github.io/Goldford-MTEC1003-OL78/Labs/01/my-flashcards.zip
 
-
-
-
-
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   162  100   162    0     0   2095      0 --:--:-- --:--:-- --:--:--  2103
 
 
 
@@ -204,7 +209,14 @@ List the contents of your home directory to prove that the directory was created
 
 Copy and paste the output below.
 ----------
-
+Adlm				Music				get-pip.p
+Applications			My Games			get-pip.py
+Desktop				Pictures			mm.cfg
+Documents			Public				mtec1002
+Downloads			Wine Files			mygoogle.html
+Library				config.log			projectFiles
+MTEC1003-my-flashcards.zip	drills.py			setuProject
+Movies				gcc-4.2				stuff
 
 
 
@@ -219,7 +231,7 @@ List the files in the directory you're currently in (which should be stuff).
 
 Copy and paste the output below.
 ----------
-
+hello.txt
 
 
 ==========
@@ -232,7 +244,15 @@ List the files in the directory you're currently in (which should be home).
 
 Copy and paste the output below.
 ----------
-
+Adlm				My Games			mm.cfg
+Applications			Pictures			mtec1002
+Desktop				Public				mygoogle.html
+Documents			Wine Files			projectFiles
+Downloads			config.log			setuProject
+Library				drills.py			stuff
+MTEC1003-my-flashcards.zip	gcc-4.2				stuff.tar
+Movies				get-pip.p
+Music				get-pip.py
 
 
 
@@ -245,7 +265,8 @@ $ tar -cvf stuff.tar stuff
 Copy and paste the output below.
 ----------
 
-
+a stuff
+a stuff/hello.txt
 
 
 
@@ -259,9 +280,15 @@ List your files again.... you should have a new file with a .gz extension.
 Copy and paste the output of your this below.
 ----------
 
-
-
-
+Adlm				My Games			mm.cfg
+Applications			Pictures			mtec1002
+Desktop				Public				mygoogle.html
+Documents			Wine Files			projectFiles
+Downloads			config.log			setuProject
+Library				drills.py			stuff
+MTEC1003-my-flashcards.zip	gcc-4.2				stuff.tar.gz
+Movies				get-pip.p
+Music				get-pip.py
 
 ==========
 17. Now, let's uncompress the same file.
@@ -270,3 +297,5 @@ $ tar -xvf stuff.tar.gz
 
 List the files.  Copy and paste the output below (the folder, stuff, should be there).
 ----------
+x stuff/
+x stuff/hello.txt
