@@ -26,14 +26,14 @@ $ cd ~
 ==========
 3. What's the absolute path to your Desktop directory?
 ----------
-/Users/Festigeo1
+/Users/Festigeo1/Desktop
 
 
 ==========
 4. If you're in your home directory, how would you create a new directory on your desktop
 called stuff without changing your directory?  Write your command below.
 ----------
-
+$ mkdir Desktop/stuff
 
 
 
